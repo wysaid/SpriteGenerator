@@ -452,7 +452,7 @@ bool SaveFileNameDlg(HWND hwnd, LPSTR filename)
     ofn.hwndOwner = hwnd;
     ofn.lStructSize = sizeof(ofn);
     ofn.lpstrFile = filename;
-    ofn.lpstrTitle = "ÇëÉèÖÃÒª±£´æµÄÍ¼Æ¬Ãû,ÉèÖÃÎª·Çpng¸ñÊ½¿ÉÄÜËğÊ§alphaÍ¨µÀ!";
+    ofn.lpstrTitle = "è¯·è®¾ç½®è¦ä¿å­˜çš„å›¾ç‰‡å,è®¾ç½®ä¸ºépngæ ¼å¼å¯èƒ½æŸå¤±alphaé€šé“!";
     ofn.nMaxFile = BUFFER_SIZE;
     ofn.Flags = OFN_OVERWRITEPROMPT;
     ofn.lpstrFilter = "PNG File(*.png)\0*.png\0Image Files(*.png;*.jpg;*.bmp)\0*.jpg;*.jpeg;*.bmp;*.png\0All Files(*.*)\0*.*\0\0";
@@ -508,8 +508,8 @@ int GetFileNameDlg(HWND hwnd, char filenames[])
     ofn.Flags = OFN_EXPLORER | OFN_ALLOWMULTISELECT;
     ofn.lpstrFile = filenames;
     ofn.nMaxFile = BUFFER_SIZE;
-    ofn.lpstrFilter = "Image Files(*.jpg;*.png;*.bmpµÈ)\0*.jpg;*.jpeg;*.png;*.bmp\0All Files(*.*)\0*.*\0\0";
-    ofn.lpstrTitle = "ÇëÑ¡ÔñĞèÒªºÏ³ÉµÄÍ¼Æ¬ÎÄ¼ş£¬°´×¡ctrl¿É¶àÑ¡!";
+    ofn.lpstrFilter = "Image Files(*.jpg;*.png;*.bmpç­‰)\0*.jpg;*.jpeg;*.png;*.bmp\0All Files(*.*)\0*.*\0\0";
+    ofn.lpstrTitle = "è¯·é€‰æ‹©éœ€è¦åˆæˆçš„å›¾ç‰‡æ–‡ä»¶ï¼ŒæŒ‰ä½ctrlå¯å¤šé€‰!";
     if(!GetOpenFileNameA(&ofn)) return -1;
     return ofn.nFileOffset;
 }

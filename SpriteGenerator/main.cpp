@@ -9,7 +9,7 @@ int main()
     setrendermode(RENDER_MANUAL);
     setbkmode(TRANSPARENT);
     setcaption("SpriteGenerator V1.2 by wang yang");
-    setfont(20, 10, "ËÎÌå");
+    setfont(20, 10, "å®‹ä½“");
     for(view.render(); is_run(); )
     {
         view.update();
