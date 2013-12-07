@@ -17,4 +17,4 @@ It is nice for the texture images of GLSL shaders.
 
 <h3> ShortCut </h3>
 <p><img src="https://raw.github.com/wysaid/SpriteGenerator/master/shortcut1.jpg"></p>
-<p><img src="https://raw.github.com/wysaid/SpriteGenerator/master/shortcut1.jpg"></p>
+<p><img src="https://raw.github.com/wysaid/SpriteGenerator/master/shortcut2.jpg"></p>
